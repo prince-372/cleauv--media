@@ -350,14 +350,14 @@ ul {
 }
 
 .price-btn {
-    padding: 16px 95px;
+    padding: 8px 16px;
     border-radius: 5px;
     border: 2px solid var(--text-lightblack2);
     transition: .4s;
 }
 
 .card-btn {
-    padding: 12px 54px;
+    padding: 11px 46px;
     border-radius: 45px;
     border: 1px solid var(--text-lightblack2);
     background: var(--text-lightwhite2);
@@ -556,6 +556,8 @@ ul {
 }
 
 
+
+
 /* backtotop */
 .backto-top {
     width: 35px;
@@ -674,7 +676,7 @@ ul {
     }
     .hero-elipes1 {
         position: absolute;
-        top: -3%;
+        top: -7%;
         left: -9%;
         width: 100px;
     }
@@ -720,10 +722,17 @@ ul {
         bottom: -3%;
         right: 2%;
     }
-    /* .hero-pricing {
-        position: absolute;
-        top: 5%;
-        left: -8%;
-        width: 100px;
-    } */
+    .price-btn {
+        padding: 16px 95px;
+        border-radius: 5px;
+        border: 2px solid var(--text-lightblack2);
+        transition: .4s;
+    }
+    .card-btn {
+        padding: 12px 54px;
+        border-radius: 45px;
+        border: 1px solid var(--text-lightblack2);
+        background: var(--text-lightwhite2);
+        transition: .4s;
+    }
 }
