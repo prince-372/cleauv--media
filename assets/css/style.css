@@ -28,6 +28,7 @@
 .lh-150 {
     line-height: 150%;
 }
+
 /* --------------------preloader---------------- */
 .loader_bg {
     position: fixed;
@@ -121,6 +122,7 @@ ul {
     width: 100%;
     left: 0;
 }
+
 /* herosection */
 .btn-contact {
     border-radius: 5px;
@@ -129,7 +131,8 @@ ul {
     border: none;
     transition: .4s !important;
 }
-.btn-contact:hover{
+
+.btn-contact:hover {
     /* background: transparent; */
     box-shadow: 5px 5px 0px 0px var(--text-yellow);
 }
@@ -316,11 +319,12 @@ ul {
 /* pricing-section */
 
 
-.hero-pricing{
+.hero-pricing {
     position: absolute;
     top: 5%;
     left: -8%;
 }
+
 .sec-pricing-card {
     padding: 24px;
     max-width: 364px;
@@ -389,7 +393,8 @@ ul {
     background-color: transparent;
     transition: .4s;
 }
-.price-lowerBtn:hover{
+
+.price-lowerBtn:hover {
     box-shadow: 5px 5px 0px 0px var(--text-lightblack2);
 }
 
@@ -405,8 +410,9 @@ ul {
     border: none;
     transition: .4s;
 }
+
 .btn-add:hover {
-   background-color: var(--text-yellow) ;
+    background-color: var(--text-yellow);
 }
 
 .tringle-elipes-sec {
@@ -435,6 +441,7 @@ ul {
     left: 0;
     z-index: 2;
 }
+
 .elipes-yellow2 {
     fill: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
     filter: blur(239px);
@@ -461,7 +468,10 @@ ul {
     box-shadow: 5px 5px 0px 0px var(--text-yellow);
 
 }
-
+.slider2 .slick-current{
+    border: 1px solid  var(--text-yellow);
+    box-shadow: 5px 5px 0px 0px var(--text-yellow);
+}
 .mw-344 {
     max-width: 548px;
 }
@@ -484,7 +494,8 @@ ul {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li{
+
+.slick-dots li {
     margin: 0px 20px !important;
 }
 
@@ -531,6 +542,7 @@ ul {
     right: -4%;
     width: 100px;
 }
+
 /* footer */
 .img-circle {
     width: 32px;
@@ -540,7 +552,8 @@ ul {
     background: rgba(250, 250, 250, 0.15);
 
 }
-.opcity-7{
+
+.opcity-7 {
     opacity: 0.7;
 }
 
@@ -668,66 +681,77 @@ ul {
         opacity: 0.2;
 
     }
+
     .hero-elipes3 {
         position: absolute;
         bottom: 82%;
         right: -4%;
         width: 100px;
     }
+
     .hero-elipes1 {
         position: absolute;
         top: -7%;
         left: -9%;
         width: 100px;
     }
+
     .hero-elipes4 {
         width: 100px;
         position: absolute;
         bottom: 6%;
         right: -3%;
     }
+
     .hero-elipes2 {
         position: absolute;
         bottom: 9%;
         left: -4%;
         width: 100px;
     }
+
     .hero-pricing {
         position: absolute;
         top: 5%;
         left: -8%;
         width: 100px;
     }
-    
+
 }
+
 @media (min-width:768px) {
-    
+
     .tringle-elipes-sec {
         position: absolute;
         top: -16%;
-            left: -17%;
+        left: -17%;
     }
+
     .carve-elipes-sec {
         position: absolute;
         bottom: -24%;
         right: -11%;
     }
+
     .hero-sec-elipes1 {
         position: absolute;
         top: 1%;
         left: -3%;
     }
+
     .hero-sec-elipes4 {
         position: absolute;
         bottom: -3%;
         right: 2%;
     }
+
     .price-btn {
         padding: 16px 95px;
         border-radius: 5px;
         border: 2px solid var(--text-lightblack2);
         transition: .4s;
     }
+
     .card-btn {
         padding: 12px 54px;
         border-radius: 45px;

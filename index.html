@@ -509,7 +509,7 @@
       plans
       to suit your specific needs. </p>
     <div class="slider2 py-5">
-      <div class="sec-customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+      <div class="sec-customer-card mb-4 d-flex flex-column flex-sm-row gap-5 mx-4">
         <div class="d-flex flex-column justify-content-center">
           <img class="w-100" src="./assets/image/girl-img-slider1.png" alt="girl-img-slider1">
         </div>
@@ -824,6 +824,8 @@
     }
     );
     $('.slider2').slick({
+      centerMode:true,
+    centerPadding:'20%',
       infinite: true,
       autoplay: true,
       speed: 300,
@@ -839,6 +841,7 @@
             slidesToScroll: 1,
             infinite: true,
             dots: true,
+            centerMode:null,
           }
         },
         {
@@ -846,6 +849,7 @@
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            centerMode:null,
           }
         },
       ]
