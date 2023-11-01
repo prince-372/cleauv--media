@@ -188,26 +188,26 @@ ul {
 
 .circle-elipes1 {
     position: absolute;
-    top: 4%;
-    left: 30%;
+    top: 0%;
+    left: 17%;
 }
 
 .line-elipes2 {
     position: absolute;
-    top: 9%;
-    right: 17%;
+    top: 1%;
+    right: 14%;
 }
 
 .carve-elipes3 {
     position: absolute;
-    bottom: 18%;
-    left: 23%;
+    bottom: 19%;
+    left: 7%;
 }
 
 .vaib-elipes4 {
     position: absolute;
-    bottom: 18%;
-    right: 23%;
+    bottom: 8%;
+    right: 14%;
 }
 
 /* Relevant Works */
@@ -822,5 +822,26 @@ ul {
     position: absolute;
     bottom: 6%;
     left: 0%;
+}
+.circle-elipes1 {
+    position: absolute;
+    top: 4%;
+    left: 30%;
+}
+
+.line-elipes2 {
+    position: absolute;
+    top: 9%;
+    right: 17%;
+}
+.carve-elipes3 {
+    position: absolute;
+    bottom: 18%;
+    left: 23%;
+}
+.vaib-elipes4 {
+    position: absolute;
+    bottom: 18%;
+    right: 23%;
 }
 }
