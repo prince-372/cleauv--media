@@ -33,7 +33,7 @@
 .loader_bg {
     position: fixed;
     z-index: 999999;
-    background: var(--text-yellow);
+    background: var(--text-lightblack2);
     width: 100%;
     height: 100%;
 }
@@ -95,14 +95,14 @@ ul {
     border-radius: 5px;
     border: 1px solid var(--text-lightwhite);
     background: transparent;
-    padding: 10px 28px;
+    padding: 16px 30px;
     transition: .4s;
 }
 
 .nav-login-btn:hover {
-    border: 1px solid var(--text-yellow);
-    background: #242323;
-    box-shadow: 5px 5px 0px 0px var(--text-yellow);
+    border-radius: 5px;
+    background: var(--500, #80765D);
+    border: 1px solid transparent;
 }
 
 .f-line::before {
@@ -162,24 +162,28 @@ ul {
     position: absolute;
     top: 21%;
     left: -3%;
+    width: 118px;
 }
 
 .hero-elipes2 {
     position: absolute;
     bottom: 4%;
     left: -10%;
+    width: 118px;
 }
 
 .hero-elipes3 {
     position: absolute;
     bottom: 60%;
     right: -8%;
+    width: 118px;
 }
 
 .hero-elipes4 {
     position: absolute;
     bottom: 4%;
     right: -8%;
+    width: 118px;
 }
 
 .circle-elipes1 {
@@ -215,12 +219,13 @@ ul {
     border-radius: 5px;
     background: #FFF9E4;
     padding: 16px 30px;
+    box-shadow: 5px 5px 0px 0px #3C3C3C;
     transition: .4s;
 }
 
 .btn-book:hover {
     background: #FFF9E4;
-    box-shadow: 5px 5px 0px 0px #3C3C3C;
+    box-shadow: none;
     padding: 16px 30px;
 }
 
@@ -248,6 +253,12 @@ ul {
 .slider .slick-track {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.hero-sec-elipes4 {
+    position: absolute;
+    bottom: -1%;
+    right: -4%;
+     width: 118px;
 }
 
 
@@ -294,25 +305,25 @@ ul {
 
 .triangle-elipes {
     position: absolute;
-    top: 11%;
+    top: 3%;
     left: 16%;
 }
 
 .wifi-elipes {
     position: absolute;
-    top: 6%;
+    top: 1%;
     right: 16%;
 }
 
 .virus-elipes {
     position: absolute;
-    bottom: 6%;
+    bottom: 1%;
     left: 0%;
 }
 
 .dots-elipes {
     position: absolute;
-    bottom: 6%;
+    bottom: 2%;
     right: 2%;
 }
 
@@ -321,8 +332,9 @@ ul {
 
 .hero-pricing {
     position: absolute;
-    top: 5%;
+    top: 6%;
     left: -8%;
+    width: 118px;
 }
 
 .sec-pricing-card {
@@ -358,6 +370,11 @@ ul {
     border-radius: 5px;
     border: 2px solid var(--text-lightblack2);
     transition: .4s;
+}
+
+.price-btn:hover {
+    border: 1px solid var(--text-yellow);
+    box-shadow: 10px 10px 0px 0px #FFCF23;
 }
 
 .card-btn {
@@ -417,17 +434,23 @@ ul {
 
 .tringle-elipes-sec {
     position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 100px;
+    top: 2%;
+    left: 1%;
+    width: 166px;
 }
 
 
 .carve-elipes-sec {
     position: absolute;
-    bottom: 7%;
-    right: 4%;
-    width: 100px;
+    bottom: -5%;
+    right: -3%;
+    width: 150px;
+}
+
+.left-vibe {
+    position: absolute;
+    bottom: 24%;
+    left: 18%;
 }
 
 .elipes-yellow1 {
@@ -439,7 +462,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .elipes-yellow2 {
@@ -458,7 +481,7 @@ ul {
     border-radius: 15px;
     border: 1px solid #242323;
     max-width: 891px;
-    padding: 0px 26px;
+    padding: 18px 26px;
     height: 100%;
 }
 
@@ -468,38 +491,45 @@ ul {
     box-shadow: 5px 5px 0px 0px var(--text-yellow);
 
 }
-.slider2 .slick-current{
-    border: 1px solid  var(--text-yellow);
+
+.slider2 .slick-current {
+    border: 1px solid var(--text-yellow);
     box-shadow: 5px 5px 0px 0px var(--text-yellow);
 }
+
 .mw-344 {
     max-width: 548px;
 }
 
 .slick-dots li button:before {
-    font-family: slick;
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 57px !important;
-    height: 11px !important;
-    content: '' !important;
-    text-align: center;
-    opacity: .25;
-    color: #000;
-    background-color: #000 !important;
-    border-radius: 7px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    content: '' !important;   
 }
-
 .slick-dots li {
-    margin: 0px 20px !important;
+    position: relative;
+    display: inline-block;
+    width: 29px !important;
+    background-color:#d9d9d9 !important;
+    height: 11px !important;
+    border-radius: 18px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li.slick-active{
+    opacity: .75;
+    background-color: #242323 !important;
+    width: 57px !important;
 }
 
-
+.slider-img1{
+    width: 100px;
+}
+.slider-img2{
+    width: 100px;
+}
+.slider-img3{
+    width: 100px;
+}
 /* Frequently Asked Questions */
 
 .accordion-button {
@@ -518,6 +548,12 @@ ul {
     outline: 0;
     box-shadow: none !important;
 }
+.accordion-button{
+    padding: 9px 9px !important;
+}
+.accordion-body{
+    padding: 9px 9px !important;
+}
 
 .accordion-button::after {
     background-image: url(../image/accordian-arrow.png) !important;
@@ -531,18 +567,22 @@ ul {
 .hero-sec-elipes1 {
     position: absolute;
     top: -2%;
-    left: -9%;
+    left: -4%;
     width: 100px;
+   
 }
 
 
-.hero-sec-elipes4 {
+.hero-elipes-4 {
     position: absolute;
-    bottom: -1%;
-    right: -4%;
-    width: 100px;
+    bottom: -3%;
+    right: -7%;
+    width: 84px;
+    z-index: 2;
 }
-
+.border-bottom-1{
+    border-bottom: 1px solid var(--text-gray1) !important;
+}
 /* footer */
 .img-circle {
     width: 32px;
@@ -681,82 +721,105 @@ ul {
         opacity: 0.2;
 
     }
+   
+}
 
-    .hero-elipes3 {
-        position: absolute;
-        bottom: 82%;
-        right: -4%;
-        width: 100px;
+@media (min-width:768px) {
+    .price-btn {
+        padding: 16px 103px;
     }
-
+  
+    .slider-img1{
+        width: 200px;
+    }
+    .slider-img2{
+        width: 200px;
+    }
+    .slider-img3{
+        width: 200px;
+    }
+}
+@media (min-width:992px) {
     .hero-elipes1 {
         position: absolute;
-        top: -7%;
-        left: -9%;
-        width: 100px;
+        top: 21%;
+        left: -3%;
+        width: unset;
     }
-
-    .hero-elipes4 {
-        width: 100px;
-        position: absolute;
-        bottom: 6%;
-        right: -3%;
-    }
-
     .hero-elipes2 {
         position: absolute;
-        bottom: 9%;
-        left: -4%;
-        width: 100px;
+        bottom: 4%;
+        left: -10%;
+        width: unset;
     }
-
+    .hero-sec-elipes1{
+        position: absolute;
+        top: -2%;
+        left: -4%;
+        width: unset;   
+    }
+    .hero-elipes3 {
+        position: absolute;
+        bottom: 60%;
+        right: -8%;
+        width: unset;
+    }
+    .hero-elipes4 {
+        position: absolute;
+        bottom: 4%;
+        right: -8%;
+        width: unset;
+    }
+    .hero-sec-elipes4 {
+        position: absolute;
+        bottom: -1%;
+        right: -4%;
+         width: unset;
+    }
     .hero-pricing {
         position: absolute;
         top: 5%;
         left: -8%;
-        width: 100px;
+        width: unset;
     }
-
-}
-
-@media (min-width:768px) {
-
     .tringle-elipes-sec {
         position: absolute;
-        top: -16%;
-        left: -17%;
+        top: 2%;
+        left: 1%;
+        width: unset;
     }
-
     .carve-elipes-sec {
         position: absolute;
-        bottom: -24%;
-        right: -11%;
+        bottom: 7%;
+        right: 4%;
+        width: unset;
     }
+    
+.hero-elipes-4 {
+    position: absolute;
+    bottom: -2%;
+    right: -7%;
+    width: unset;
 
-    .hero-sec-elipes1 {
-        position: absolute;
-        top: 1%;
-        left: -3%;
-    }
-
-    .hero-sec-elipes4 {
-        position: absolute;
-        bottom: -3%;
-        right: 2%;
-    }
-
-    .price-btn {
-        padding: 16px 95px;
-        border-radius: 5px;
-        border: 2px solid var(--text-lightblack2);
-        transition: .4s;
-    }
-
-    .card-btn {
-        padding: 12px 54px;
-        border-radius: 45px;
-        border: 1px solid var(--text-lightblack2);
-        background: var(--text-lightwhite2);
-        transition: .4s;
-    }
+}
+.wifi-elipes {
+    position: absolute;
+    top: 6%;
+    right: 16%;
+}
+.triangle-elipes {
+    position: absolute;
+    top: 11%;
+    left: 16%;
+}
+.dots-elipes {
+    position: absolute;
+    bottom: 6%;
+    right: 2%;
+}
+.virus-elipes {
+    position: absolute;
+    bottom: 6%;
+    left: 0%;
+}
 }
