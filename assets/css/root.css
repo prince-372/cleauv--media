@@ -14,6 +14,7 @@
     --text-lightwhite1: #e7e6e4;
     --text-orange: #ffaf23;
     --text-lightwhite2: #fff9f4;
+    --text-wheat: #f8f2de;
     --text-lightwhite3: #fffcf6;
     --text-lightwhite4: #faf8f5;
     --text-lightblack2: #3c3c3c;
@@ -125,6 +126,9 @@
 .text-brown {
     color: var(--text-brown);
 }
+.text-wheat{
+    color: var(--text-wheat);
+}
 
 .bg-lightblack {
     background-color: var(--text-lightblack);
@@ -144,7 +148,9 @@
 .bg-lightwhite3 {
     background-color: var(--text-lightwhite3);
 }
-
+.bg-wheat{
+    background-color: var(--text-wheat);
+}
 @media (min-width:768px) {
     :root {
         /* font-size */

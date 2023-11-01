@@ -381,7 +381,7 @@ ul {
     padding: 11px 33px;
     border-radius: 45px;
     border: 1px solid var(--text-lightblack2);
-    background: var(--text-lightwhite2);
+    background: var(--text-wheat);
     transition: .4s;
 }
 
