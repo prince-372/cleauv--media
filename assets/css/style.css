@@ -378,7 +378,7 @@ ul {
 }
 
 .card-btn {
-    padding: 11px 46px;
+    padding: 11px 33px;
     border-radius: 45px;
     border: 1px solid var(--text-lightblack2);
     background: var(--text-lightwhite2);
@@ -454,7 +454,7 @@ ul {
 }
 
 .elipes-yellow1 {
-    fill: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    background:  linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
     filter: blur(239px);
     width: 233px;
     height: 108px;
@@ -465,8 +465,8 @@ ul {
     z-index: 3;
 }
 
-.elipes-yellow2 {
-    fill: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+.elipes-yellow2  {
+    background: linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
     filter: blur(239px);
     max-width: 233px;
     max-height: 108px;
