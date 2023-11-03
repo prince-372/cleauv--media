@@ -537,14 +537,23 @@ ul {
 }
 /* Frequently Asked Questions */
 
+/*-----------------------------------------accordion-section ----------------------------------------- */
 .accordion-button {
     background-color: var(--text-lightwhite3) !important;
+}
+
+.mx-880 {
+    max-width: 880px !important;
 }
 
 .accordion {
     --bs-accordion-bg: var(--text-lightwhite3) !important;
     --bs-accordion-border-color: none !important;
-    max-width: 880px !important;
+}
+
+
+.bb-1{
+    border-bottom: 2px solid #E5E3DD !important;
 }
 
 .accordion-button:focus {
@@ -554,20 +563,19 @@ ul {
     box-shadow: none !important;
 }
 .accordion-button{
-    padding: 9px 9px !important;
-}
-.accordion-body{
-    padding: 9px 9px !important;
+    padding: 12px 8px !important;
 }
 
+.accordion-body {
+    padding: 4px 8px !important;
+}
 .accordion-button::after {
-    background-image: url(../image/accordian-arrow.png) !important;
+    background-image: url("../image/accordian-arrow.png") !important;
 }
 
-.mw-840 {
+.mx-840 {
     max-width: 840px;
 }
-
 
 .hero-sec-elipes1 {
     position: absolute;
@@ -577,7 +585,6 @@ ul {
    
 }
 
-
 .hero-elipes-4 {
     position: absolute;
     bottom: -3%;
@@ -585,9 +592,7 @@ ul {
     width: 84px;
     z-index: 2;
 }
-.border-bottom-1{
-    border-bottom: 1px solid var(--text-gray1) !important;
-}
+
 /* footer */
 .img-circle {
     width: 32px;
