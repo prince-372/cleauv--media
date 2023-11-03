@@ -570,7 +570,7 @@ ul {
     padding: 4px 8px !important;
 }
 .accordion-button::after {
-    background-image: url("../image/accordian-arrow.png") !important;
+    background-image: unset !important;
 }
 
 .mx-840 {
@@ -747,6 +747,9 @@ ul {
     }
     .slider-img3{
         width: 200px;
+    }
+    .accordion-button::after {
+        background-image: url("../image/accordian-arrow.png") !important;
     }
 }
 @media (min-width:992px) {
